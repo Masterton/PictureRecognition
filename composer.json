@@ -1,0 +1,39 @@
+{
+    "name": "masterton/picture-recognition",
+    "description": "A package that produces image fingerprints",
+    "keywords": ["recognition", "picture", "php", "psr7"],
+    "homepage": "https://github.com/Masterton/PictureRecognition",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Masterton",
+            "email": "zhengcloud@foxmail.com",
+            "homepage": "http://slim.zhengss.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8 < 6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PictureRecognition\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    },
+    "config": {
+        "process-timeout" : 0
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
